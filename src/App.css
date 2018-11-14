@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: Tahoma;
+}
+
+.App {
+  display: flex;
+}
+
+.main-nav {
+  background-color: lightgray;
+}
+
+.App .main-nav li {
+  position: fixed;
+  top: 0;
+  display: inline-block;
+  padding: 10px;
+  text-align: center;
+}
+
+table {
+  float: left;
+}
+
+.App > div {
+  flex: 1;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+th {
+  padding: 13px;
+}
+
+td {
+  padding: 12px;
+}
+
